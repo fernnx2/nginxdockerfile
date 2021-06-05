@@ -1,0 +1,6 @@
+version: "3.7"
+services: 
+    frontend:
+        image: web-expediente-medico
+        ports:
+            - "90-100:80"
